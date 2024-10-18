@@ -1,0 +1,28 @@
+{
+	"ntp":
+	{
+		"enabled": false,
+		"synctime": "03:00"
+	},
+	"connections":
+	[
+		{
+			"host": "0.0.0.0",
+			"port": 27015,
+			"relay": true,
+			"ssl": false,
+			"cert": "certificate.pem",
+			"pk": "privkey.pem",
+			"auth": false,
+			"auth_key": ""
+		}
+	],
+	"serial": {
+		"autodiscover": true,
+		"port": "/dev/ttyACM0"
+	},
+	"logging": {
+		"type": "debug",
+		"output": "stream"
+	}
+}

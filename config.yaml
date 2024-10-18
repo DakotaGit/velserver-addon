@@ -1,0 +1,18 @@
+# Home Assistant Add-on: Velserv
+name: "Velserver"
+version: "1.0"
+slug: "velserver"
+description: "Velbus tcp ip server based on https://github.com/velbus/python-velbustcp/tree/master"
+icon: icon.png
+url: "https://github.com/yourusername/velserv-addon"
+init: false
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+startup: application
+boot: auto
+uart: true
+host_network: true
