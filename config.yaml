@@ -4,7 +4,7 @@ version: "1.0"
 slug: "velserver"
 description: "Velbus tcp ip server based on https://github.com/velbus/python-velbustcp/tree/master"
 icon: icon.png
-url: "https://github.com/yourusername/velserv-addon"
+url: "https://github.com/DakotaGit/velserver-addon"
 init: false
 arch:
   - armhf
