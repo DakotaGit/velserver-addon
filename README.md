@@ -1,6 +1,6 @@
 # Velserver tcp/ip server 
 
-This is a add-on which runs https://github.com/velbus/python-velbustcp so Home Assistant can act as a TCP/IP server for velbus USB modules
+This is a add-on which runs https://github.com/velbus/python-velbustcp so Home Assistant can act as a TCP/IP server for velbus USB configuration modules.
 
 ## Installation
 
